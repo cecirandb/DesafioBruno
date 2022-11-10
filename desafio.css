@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: rgb(189, 189, 189);
+  font-family: sans-serif;
+  color: rgb(207, 189, 106);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#container,
+#formObj {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#nombre,
+#color,
+#peso {
+  color: rgb(68, 46, 46);
+}
+
+#carrito {
+  border-color: rgba(254, 254, 254, 0);
+  background-color: rgb(186, 150, 79);
+  border-radius: 5px;
+}
+
+#cantidad {
+  width: 35px;
+}
+
+h1 {
+  color: rgb(53, 53, 58);
+}
+
+span {
+  margin-right: 30px;
+  color: rgb(77, 75, 121);
+  font-weight: bold;
+}
+
+.productos {
+  margin: 50px;
+  background-color: rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+  margin-right: 700px;
+  margin-left: 700px;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(86, 124, 200);
+  padding: 1em 0;
+  text-align: center;
+  margin-top: auto;
+  color: rgba(250, 254, 143, 0.804);
+}
